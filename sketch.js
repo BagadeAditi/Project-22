@@ -19,7 +19,7 @@ starBody.display();
 function setup() {
 	createCanvas(800, 750);
 
-	 //fairyVoice.play();
+	 fairyVoice.play();
 
 	fairy = createSprite(130, 520);
 	fairy.addAnimation("fairyflying",fairyImg);  
